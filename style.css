@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #d7bd828a;
+}
+.header-text {
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto+Condensed", sans-serif;
+}
+
+.cap {
+    width: 1287px;
+    height: 500px;
+    margin-right: 0;
+}
+
+.line {
+    width: 1287px;
+    height: 3px;
+    background-color: #7a4419;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #400406;
+}
+
+.section1 {
+    font-family: "Roboto+Condensed", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    width: 1000px;
+    height: 350px;
+}
+
+.intro {
+    border: 4px solid #400406;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 6px;
+    color: #260701;
+    margin-right: 70px;
+}
+
+.img2{
+    border: 4px solid #400406;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.section2 {
+    width: 900px;
+    height: 650px;
+    font-family: "Roboto+Condensed", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+}
+
+.role {
+    border: 4px solid #400406;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 6px;
+    color: #260701;
+    
+}
+
+.section3 {
+    width: 1100px;
+    height: 1160px;
+    font-family: "Roboto+Condensed", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    
+}
+
+.title {
+    color: #755c1b;
+}
+
+.medievalcountry {
+    border: 4px solid #400406;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 6px;
+    color: #260701;
+    
+}
+
+.section4 {
+    width: 1000px;
+    height: 300px;
+    font-family: "Roboto+Condensed", sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    
+}
+
+.conclusion {
+    border: 4px solid #400406;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 6px;
+    color: #260701;
+}
+
+.footer {
+    background-color: #400406;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.footer2 {
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.myname {
+    color: #d7be82;
+    margin-left: 160px;
+}
+@media (max-width: 768px) {
+    .header-text {
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cap {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    /* Адаптация section1 */
+    .section1 {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 30px auto 0;
+        padding: 0;
+    }
+
+    .intro {
+        width: 100%;
+        font-size: 18px;
+        margin: 0 0 20px 0;
+        box-sizing: border-box;
+    }
+
+    .img2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* Адаптация section2 */
+    .section2 {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 30px auto 0;
+    }
+
+    .role {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Адаптация section3 */
+    .section3 {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 30px auto 0;
+    }
+
+    .medievalcountry {
+        width: 100%;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    /* Адаптация section4 */
+    .section4 {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 30px auto 0;
+    }
+
+    .conclusion {
+        width: 100%;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    /* Адаптация footer */
+    .footer {
+        width: 100%;
+    }
+
+    .footer2 {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .myname {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    /* Дополнительные улучшения для лучшего отображения на мобильных */
+    body {
+        overflow-x: hidden;
+    }
+    
+    h1, h2, h3 {
+        text-align: center;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    /* Улучшение навигации (если она у вас есть) */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        margin: 5px 0;
+        padding: 8px 15px;
+        width: 80%;
+        text-align: center;
+    }
+    }
+
